@@ -1,0 +1,83 @@
+/* style.css - CEIMAM - inspirado no Humanimalia */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; line-height: 1.7; color: #1c1c1c; background: #ffffff; }
+
+/* NAV */
+.site-header { background: #1c1c1c; position: sticky; top: 0; z-index: 100; }
+.nav-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; }
+.site-title { color: white; font-size: 1.1rem; font-weight: 700; text-decoration: none; padding: 1rem 0; letter-spacing: 1px; }
+nav ul { list-style: none; display: flex; flex-wrap: wrap; }
+nav ul li { position: relative; }
+nav ul li a { color: #dddddd; text-decoration: none; padding: 1rem 0.85rem; display: block; font-size: 0.88rem; transition: color 0.2s; }
+nav ul li a:hover { color: #ffffff; }
+.submenu { display: none; position: absolute; background: #1c1c1c; min-width: 230px; top: 100%; left: 0; border-top: 2px solid #8b3030; z-index: 200; }
+nav ul li:hover .submenu { display: block; }
+.submenu a { padding: 0.7rem 1.2rem; border-bottom: 1px solid #333; font-size: 0.9rem; display: block; }
+.submenu a:hover { background: #333; color: white; }
+
+/* HERO */
+.hero { background: #1c1c1c; color: white; text-align: center; padding: 4rem 2rem; border-bottom: 4px solid #8b3030; }
+.hero h1 { font-size: 3rem; font-weight: 700; letter-spacing: 4px; margin-bottom: 0.5rem; }
+.hero p { font-size: 1.1rem; color: #bbbbbb; font-style: italic; }
+
+/* MAIN */
+main { max-width: 1100px; margin: 3rem auto; padding: 0 2rem; }
+
+/* SECTION TITLE */
+.section-title { font-size: 1.4rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #8b3030; text-decoration: underline; text-underline-offset: 6px; margin-bottom: 1.5rem; text-align: center; }
+
+/* SOBRE */
+.sobre-box { max-width: 750px; margin: 0 auto 3rem; text-align: justify; }
+.sobre-box p { font-size: 1.05rem; margin-bottom: 1rem; color: #333; }
+
+/* CARDS NAV */
+.cards-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 2rem 0 3rem; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 2rem 0; }
+.card-nav { text-align: center; text-decoration: none; color: #1c1c1c; font-size: 0.95rem; font-weight: 600; width: 130px; transition: color 0.2s; }
+.card-nav:hover { color: #8b3030; }
+.card-nav .icon { font-size: 2.5rem; display: block; margin-bottom: 0.5rem; }
+
+/* TWO COL */
+.two-col { display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; margin-top: 2rem; }
+
+/* EVENTOS */
+.evento-item { padding: 1rem 0; border-bottom: 1px solid #eee; }
+.evento-item h3 { font-size: 1rem; font-weight: 600; }
+.evento-item p { font-size: 0.9rem; color: #666; }
+
+/* PESQUISADORES */
+.pesq-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+.pesq-card { border: 1px solid #e0e0e0; border-left: 4px solid #8b3030; padding: 1.2rem 1.5rem; text-decoration: none; color: #1c1c1c; display: block; transition: box-shadow 0.2s; }
+.pesq-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.1); }
+.pesq-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.3rem; }
+.pesq-card .role { font-size: 0.85rem; color: #8b3030; font-style: italic; }
+.pesq-card .titulacao { font-size: 0.82rem; color: #888; margin-top: 0.3rem; }
+
+/* PESQUISADOR INDIVIDUAL */
+.pesq-profile { max-width: 800px; margin: 0 auto; }
+.pesq-profile .nome { font-size: 2rem; font-weight: 700; color: #1c1c1c; margin-bottom: 0.3rem; }
+.pesq-profile .cargo { font-size: 1.1rem; color: #8b3030; font-style: italic; margin-bottom: 1.5rem; }
+.pesq-profile .info-box { background: #f8f8f8; border-left: 4px solid #8b3030; padding: 1.5rem; margin: 1.5rem 0; font-size: 0.95rem; color: #555; }
+.pesq-profile .info-box p { margin-bottom: 0.5rem; }
+.pesq-profile .em-breve { color: #aaa; font-style: italic; font-size: 0.95rem; padding: 2rem 0; }
+.back-link { display: inline-block; color: #8b3030; text-decoration: none; font-size: 0.9rem; margin-bottom: 2rem; }
+.back-link:hover { text-decoration: underline; }
+
+/* YOUTUBE */
+.yt-banner { background: #1c1c1c; color: white; padding: 2rem; text-align: center; margin: 2rem 0; border-left: 4px solid #ff0000; }
+.yt-banner h3 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+.yt-banner p { color: #bbb; margin-bottom: 1rem; font-size: 0.95rem; }
+.yt-btn { background: #ff0000; color: white; padding: 0.7rem 1.8rem; text-decoration: none; font-weight: 700; font-size: 1rem; display: inline-block; transition: background 0.2s; }
+.yt-btn:hover { background: #cc0000; }
+
+/* FOOTER */
+footer { background: #ffffff; border-top: 1px solid #ddd; text-align: center; padding: 2.5rem 1rem; margin-top: 4rem; font-size: 0.88rem; color: #555; line-height: 1.9; }
+footer strong { color: #1c1c1c; }
+hr.divider { border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0; }
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .two-col { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 2rem; }
+  .nav-inner { flex-direction: column; padding: 0.5rem 1rem; }
+  nav ul { flex-wrap: wrap; justify-content: center; }
+}
