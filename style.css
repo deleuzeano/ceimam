@@ -26,6 +26,7 @@ nav ul li:hover .submenu { display: block; }
 .hero-inner p { font-size: 1rem; margin-top: 0.9rem; font-style: italic; letter-spacing: 1px; color: #9a6840; }
 .hero h1 { font-size: 3.5rem; letter-spacing: 8px; font-weight: 400; color: #7a2800; text-align: center; }
 .hero p { font-size: 1rem; margin-top: 0.9rem; font-style: italic; letter-spacing: 1px; color: #9a6840; text-align: center; }
+.logo-hero { max-height: 220px; width: auto; }
 
 /* VIDEO DESTAQUE */
 .destaque-section { margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid #e0e0e0; }
