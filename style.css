@@ -84,7 +84,7 @@ main { max-width: 960px; margin: 0 auto; padding: 3rem 2rem; }
 .sobre-box p { font-size: 1rem; color: #333; line-height: 1.8; margin-bottom: 0.8rem; text-align: justify; }
 
 /* FOOTER */
-footer { background: #fff; border-top: 1px solid #e0e0e0; padding: 2.5rem 2rem; text-align: center; color: #555; }
+footer { background: #fff; border-top: 1px solid #e0e0e0; padding: 0.6rem 2rem 2rem; text-align: center; color: #555; }
 footer p { font-size: 0.9rem; line-height: 1.8; }
 
 /* GALERIA SOBRE */
