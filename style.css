@@ -6,7 +6,7 @@ body { font-family: 'Georgia', 'Times New Roman', serif; line-height: 1.6; color
 .site-header { background: #fff; border-bottom: 1px solid #e0e0e0; position: sticky; top: 0; z-index: 100; }
 .nav-inner { max-width: 960px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0.9rem 2rem; }
 .site-title { text-decoration: none; display: flex; align-items: center; }
-.logo-nav { height: 38px; width: auto; display: block; }
+.logo-nav { height: 60px; width: auto; display: block; }
 .logo-footer-img { height: 55px; width: auto; }
 nav ul { list-style: none; display: flex; align-items: center; flex-wrap: wrap; gap: 0.2rem; }
 nav ul li { position: relative; }
