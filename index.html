@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CEIMAM — Centro de Estudos Indígenas Miguel Angel Menéndez</title>
+  <meta name="description" content="Centro de Estudos Indígenas Miguel Angel Menéndez — pesquisa e discussão sobre povos indígenas na América do Sul." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────────── -->
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html" aria-label="CEIMAM — Página inicial">
+      <img src="logo-header.png" alt="CEIMAM" />
+    </a>
+    <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" role="list">
+      <li><a class="nav__link" href="index.html">Início</a></li>
+      <li><a class="nav__link" href="sobre.html">Sobre</a></li>
+      <li><a class="nav__link" href="pesquisadores.html">Pesquisadores</a></li>
+      <li><a class="nav__link" href="parceiros.html">Parceiros</a></li>
+      <li><a class="nav__link" href="projetos.html">Projetos</a></li>
+      <li><a class="nav__link" href="publicacoes.html">Publicações</a></li>
+      <li><a class="nav__link" href="teses.html">Teses</a></li>
+      <li><a class="nav__link" href="eventos.html">Eventos</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Hero ───────────────────────────────────────────────── -->
+<section class="hero" aria-label="Apresentação">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero__content">
+    <img src="logo-footer.png" alt="CEIMAM" class="hero__logo" />
+  </div>
+  <div class="hero__accent-bar" aria-hidden="true"></div>
+</section>
+
+
+<!-- ── Sobre ───────────────────────────────────────────────── -->
+<section class="section" aria-labelledby="sobre-title">
+  <div class="section__inner">
+    <div class="two-col">
+      <div class="reveal">
+        <span class="section__label">Sobre o CEIMAM</span>
+        <h2 class="section__title" id="sobre-title">História</h2>
+        <p class="section__desc">Fundado em 1982 pela Professora Titular de Antropologia Silvia Maria S. Carvalho, com a colaboração de vários professores e estudantes da UNESP, o Grupo de Estudos Indígenas institucionalizou-se como Centro de Estudos Indígenas, sob a coordenação de Silvia Carvalho e Miguel Angel Menéndez, recebendo a denominação atual em homenagem a este pesquisador.</p>
+        <p class="section__desc" style="margin-top:1rem;">O objetivo do CEIMAM é pesquisar e discutir a organização social e as cosmologias dos povos indígenas na América do Sul, difundir questões que afetam seus direitos territoriais, saúde, educação e gestão ambiental.</p>
+        <div style="margin-top: 2rem;">
+          <a class="hero__cta" href="sobre.html">
+            Leia mais
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <span class="section__label">Linhas de Pesquisa</span>
+          <div class="numbered-list" style="margin-top:1rem;">
+            <div class="numbered-item">
+              <span class="numbered-item__num">01</span>
+              <div class="numbered-item__content">
+                <div class="numbered-item__title">Etnologia Sul-americana</div>
+                18 estudantes · 14 pesquisadores
+              </div>
+            </div>
+            <div class="numbered-item">
+              <span class="numbered-item__num">02</span>
+              <div class="numbered-item__content">
+                <div class="numbered-item__title">Arqueologia Sul-americana</div>
+                3 pesquisadores
+              </div>
+            </div>
+            <div class="numbered-item">
+              <span class="numbered-item__num">03</span>
+              <div class="numbered-item__content">
+                <div class="numbered-item__title">Línguas Sul-americanas</div>
+                2 pesquisadores
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Links rápidos ───────────────────────────────────────── -->
+<section class="section section--alt" aria-labelledby="links-title">
+  <div class="section__inner">
+    <header class="section__header reveal">
+      <span class="section__label">Navegação</span>
+      <h2 class="section__title" id="links-title">O que você encontra no CEIMAM</h2>
+    </header>
+    <div class="grid-4">
+
+      <article class="card reveal" style="--card-accent: var(--tag-etnologia);">
+        <div class="card__tags">
+          <span class="tag tag--etnologia">Equipe</span>
+        </div>
+        <div class="icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3 class="card__title">Pesquisadores</h3>
+        <p class="card__body">Conheça os pesquisadores e estudantes vinculados ao CEIMAM.</p>
+        <a class="card__link" href="pesquisadores.html">
+          Ver pesquisadores
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <article class="card reveal reveal-delay-1" style="--card-accent: var(--tag-arqueologia);">
+        <div class="card__tags">
+          <span class="tag tag--arqueologia">Pesquisa</span>
+        </div>
+        <div class="icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        </div>
+        <h3 class="card__title">Projetos de Pesquisa</h3>
+        <p class="card__body">Projetos de pesquisa em andamento e concluídos pelo CEIMAM.</p>
+        <a class="card__link" href="projetos.html">
+          Ver projetos
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <article class="card reveal reveal-delay-2" style="--card-accent: var(--tag-linguistica);">
+        <div class="card__tags">
+          <span class="tag tag--linguistica">Publicações</span>
+        </div>
+        <div class="icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        </div>
+        <h3 class="card__title">Publicações</h3>
+        <p class="card__body">O CEIMAM editou o periódico <em>Terra Indígena</em> (ISSN 0103-2437), em processo de retomada.</p>
+        <a class="card__link" href="publicacoes.html">
+          Ver publicações
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <article class="card reveal reveal-delay-3" style="--card-accent: var(--tag-ecologia);">
+        <div class="card__tags">
+          <span class="tag tag--ecologia">Parceiros</span>
+        </div>
+        <div class="icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3 class="card__title">Fundação Araporã</h3>
+        <p class="card__body">Organização parceira criada em 1994 por pedido da líder guarani Édina Silva de Souza.</p>
+        <a class="card__link" href="arapora.html">
+          Saiba mais
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Vídeo em destaque ───────────────────────────────────── -->
+<section class="section" aria-labelledby="destaque-title">
+  <div class="section__inner">
+    <header class="section__header reveal">
+      <span class="section__label">Em destaque</span>
+      <h2 class="section__title" id="destaque-title">História do CEIMAM</h2>
+    </header>
+    <div class="reveal" style="max-width: 800px; margin: 0 auto;">
+      <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius: var(--radius); border: 1px solid var(--border);">
+        <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/95cVAxUAv-Y" title="História do CEIMAM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p style="text-align:center; margin-top:1rem; font-size:.9rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:.05em;">História do CEIMAM · CEDEM – UNESP</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Próximos eventos ────────────────────────────────────── -->
+<section class="section section--alt" aria-labelledby="eventos-title">
+  <div class="section__inner">
+    <header class="section__header reveal">
+      <span class="section__label">Agenda</span>
+      <h2 class="section__title" id="eventos-title">Próximos eventos</h2>
+    </header>
+    <div class="reveal" style="text-align:center; padding: 3rem 0;">
+      <p style="color:var(--text-muted); font-style:italic; font-size:.95rem;">Nenhum evento agendado no momento.</p>
+    </div>
+    <div style="margin-top: 1rem; text-align: right;">
+      <a class="card__link" href="eventos.html" style="display: inline-flex;">
+        Ver todos os eventos
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="footer" role="contentinfo">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="logo-footer.png" alt="CEIMAM" />
+      <p>Centro de Estudos Indígenas &ldquo;Miguel Angel Menéndez&rdquo;.<br />Faculdade de Ciências e Letras — UNESP Araraquara.</p>
+    </div>
+    <div>
+      <p class="footer__heading">Institucional</p>
+      <ul class="footer__links">
+        <li><a href="sobre.html">Sobre o CEIMAM</a></li>
+        <li><a href="pesquisadores.html">Pesquisadores</a></li>
+        <li><a href="associados.html">Associados</a></li>
+        <li><a href="colaboradores.html">Colaboradores</a></li>
+        <li><a href="parceiros.html">Parceiros</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__heading">Pesquisa</p>
+      <ul class="footer__links">
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="publicacoes.html">Publicações</a></li>
+        <li><a href="teses.html">Teses e Dissertações</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__heading">Contato</p>
+      <p style="font-size:.85rem; color:var(--text-muted); line-height:1.8;">Rodovia Araraquara–Jaú, Km 1<br />14800-901 — Araraquara/SP<br />(16) 3334-6218<br /><a href="mailto:ceimam.fclar@unesp.br" style="color:var(--accent);">ceimam.fclar@unesp.br</a></p>
+      <ul class="footer__links" style="margin-top:.75rem;">
+        <li><a href="https://www.youtube.com/@centrodeestudosindigenas8309" target="_blank">&#9654; YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© CEIMAM — Universidade Estadual Paulista (UNESP)</span>
+    <span>Araraquara, São Paulo, Brasil</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

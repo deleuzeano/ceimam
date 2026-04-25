@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+*.jpg
+*.webp
+*.mhtml
+*.mp4
+sb_*
+storyboard*
+terra_test*
+check_*
+foto-*-raw.*
+sb_urls.txt
