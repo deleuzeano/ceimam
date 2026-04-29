@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enaie Santos Silva — CEIMAM</title>
+  <meta name="description" content="Perfil de Enaie Santos Silva — CEIMAM, Centro de Estudos Indígenas Miguel Angel Menéndez, UNESP Araraquara." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  
+  <style>
+    .perfil-hero { display:flex; gap:2.5rem; align-items:flex-start; margin-bottom:2.5rem; flex-wrap:wrap; }
+    .perfil-foto { width:220px; height:220px; object-fit:cover; border-radius:50%; flex-shrink:0; box-shadow:0 4px 20px rgba(0,0,0,.15); }
+    .perfil-foto-placeholder { width:220px; height:220px; border-radius:50%; background:var(--surface); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+    .perfil-info { flex:1; min-width:220px; }
+    .perfil-role { font-size:.85rem; font-weight:600; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); margin-bottom:.4rem; }
+    .perfil-name { font-size:2rem; font-weight:700; color:var(--text); margin-bottom:.3rem; line-height:1.2; }
+    .perfil-inst { color:var(--text-muted); font-size:1rem; margin-bottom:1.2rem; }
+    .perfil-bio { font-size:1rem; line-height:1.8; color:var(--text); max-width:72ch; }
+    .perfil-lattes { display:inline-flex; align-items:center; gap:.4rem; margin-top:1.5rem; padding:.55rem 1.2rem; background:var(--accent); color:#fff; border-radius:6px; font-size:.85rem; font-weight:600; text-decoration:none; transition:opacity .2s; }
+    .perfil-lattes:hover { opacity:.85; }
+    @media(max-width:600px){ .perfil-foto, .perfil-foto-placeholder{ width:160px; height:160px; } .perfil-name{ font-size:1.5rem; } }
+  </style>
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html" aria-label="CEIMAM — Página inicial">
+      <img src="logo-header.png" alt="CEIMAM" />
+    </a>
+    <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" role="list">
+      <li><a class="nav__link" href="index.html">Início</a></li>
+      <li><a class="nav__link" href="sobre.html">Sobre</a></li>
+      <li><a class="nav__link" href="pesquisadores.html">Pesquisadores</a></li>
+      <li><a class="nav__link" href="parceiros.html">Parceiros</a></li>
+      <li><a class="nav__link" href="projetos.html">Projetos</a></li>
+      <li><a class="nav__link" href="publicacoes.html">Publicações</a></li>
+      <li><a class="nav__link" href="teses.html">Teses</a></li>
+      <li><a class="nav__link" href="eventos.html">Eventos</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="page-hero__inner">
+    <a class="back-link" href="pesquisadores.html">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      Pesquisadores
+    </a>
+    <span class="page-hero__label">Perfil</span>
+    <h1 class="page-hero__title reveal">Enaie Santos Silva</h1>
+  </div>
+</header>
+
+<section class="section">
+  <div class="section__inner">
+    <div class="perfil-hero">
+      <img class="perfil-foto" src="fotos/enaie-santos.png" alt="Enaie Santos Silva" />
+      <div class="perfil-info">
+        <p class="perfil-role">Mestranda</p>
+        <h2 class="perfil-name">Enaie Santos Silva</h2>
+        
+        <p class="perfil-bio">Graduada em Pedagogia pela UNESP Araraquara. Mestra em Educação na Universidade Federal da Grande Dourados (UFGD). Professora da Educação escolar indígena.</p>
+        <a class="perfil-lattes" href="http://lattes.cnpq.br/3066792821511885" target="_blank">Currículo Lattes</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" role="contentinfo">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="logo-footer.png" alt="CEIMAM" />
+      <p>Centro de Estudos Indígenas &ldquo;Miguel Angel Menéndez&rdquo;.<br />Faculdade de Ciências e Letras — UNESP Araraquara.</p>
+    </div>
+    <div>
+      <p class="footer__heading">Institucional</p>
+      <ul class="footer__links">
+        <li><a href="sobre.html">Sobre o CEIMAM</a></li>
+        <li><a href="pesquisadores.html">Pesquisadores</a></li>
+        <li><a href="parceiros.html">Parceiros</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__heading">Pesquisa</p>
+      <ul class="footer__links">
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="publicacoes.html">Publicações</a></li>
+        <li><a href="teses.html">Teses e Dissertações</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__heading">Contato</p>
+      <p style="font-size:.85rem; color:var(--text-muted); line-height:1.8;">Rodovia Araraquara–Jaú, Km 1<br />14800-901 — Araraquara/SP<br />(16) 3334-6218<br /><a href="mailto:ceimam.fclar@unesp.br" style="color:var(--accent);">ceimam.fclar@unesp.br</a></p>
+      <ul class="footer__links" style="margin-top:.75rem;">
+        <li><a href="https://www.youtube.com/@centrodeestudosindigenas8309" target="_blank">YouTube</a></li>
+        <li><a href="https://www.instagram.com/ceimam.fclar" target="_blank">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© CEIMAM — Universidade Estadual Paulista (UNESP)</span>
+    <span>Araraquara, São Paulo, Brasil</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
